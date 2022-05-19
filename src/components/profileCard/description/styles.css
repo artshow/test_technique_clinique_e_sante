@@ -1,0 +1,31 @@
+button.profile__card-description-button {
+	background-color: #fff;
+	margin: 0px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+	color: var(--secondary);
+	padding: 0px;
+	border: none;
+	cursor: pointer;
+}
+
+button.profile__card-description-button img {
+	margin-left: 6px;
+}
+
+div.profile__card-description-details {
+	margin-bottom: 28px;
+}
+
+div.profile__card-age,
+div.profile__card-city {
+	font-weight: 600;
+	font-family: 'Inter';
+	font-style: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--secondary);
+}

@@ -1,0 +1,28 @@
+section#profiles__view {
+	position: absolute;
+	top: 98px;
+	left: 0px;
+	width: 100%;
+	min-height: calc(100% - 98px);
+	background-color: var(--main-bg-color);
+	display: flex;
+	justify-content: center;
+}
+
+div.profiles__container {
+	padding: 48px 32px 0px 32px;
+	max-width: 864px;
+	width: 100%;
+}
+
+div.profiles__view-separator {
+	margin-top: 36px;
+	margin-bottom: 24px;
+}
+
+div.profiles__view-separator-line {
+	background-color: #CBDBDF;
+	margin: auto;
+	height: 1px;
+	width: 60%;
+}

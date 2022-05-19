@@ -1,0 +1,23 @@
+div.profile__card-skills {
+	margin-top: 6px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+div.profile__card-skill {
+	background-color: #fff;
+	margin-bottom: 6px;
+	margin-right: 8px;
+	line-height: 22px;
+	padding: 0px 8px;
+	color: var(--secondary);
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	border: 1px solid var(--grey-3);
+	border-radius: 4px;
+}

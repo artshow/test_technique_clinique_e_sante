@@ -1,0 +1,105 @@
+[
+  {
+	  	"id": 1,
+    	"name": "John Doe",
+    	"age": 30,
+    	"city": "New York",
+    	"role": "Front-end developer",
+    	"type": "full-time",
+    	"salary": "$100000",
+    	"skills": [
+      	"HTML",
+      	"CSS",
+      	"JavaScript",
+      	"React",
+      	"Redux",
+      	"Node.js",
+      	"MongoDB"
+		],
+		"available": true,
+		"picture": "john_doe"
+  	},
+  	{
+	  	"id": 2,
+    	"name": "Jane Doe",
+    	"age": 28,
+    	"city": "Paris",
+    	"role": "Back-end developer",
+    	"type": "part-time",
+    	"salary": "$70000",
+    	"skills": [
+      	"Firebase",
+      	"Git",
+	      "Express.js",
+	      "MongoDB",
+	      "MySQL",
+	      "AWS",
+	      "Docker"
+		],
+		"available": true,
+		"picture": "jane_doe"
+	},
+  	{
+	  	"id": 3,
+    	"name": "John Smith",
+	   "age": 35,
+	   "city": "Berlin",
+	   "role": "Full-stack developer",
+	   "type": "full-time",
+	   "salary": "$200000",
+	   "skills": [
+	      "JavaScript",
+	      "Python",
+	      "React Native",
+	      "Django",
+	      "Kubernetes",
+	      "GCP",
+	      "DevOps",
+	      "SQL"
+		],
+		"available": false,
+		"picture": "john_smith"
+  	},
+  	{
+		"id": 4,
+	   "name": "Jane Smith",
+	   "age": 32,
+	   "city": "London",
+	   "role": "Data Scientist",
+	   "type": "part-time",
+	   "salary": "$100000",
+	   "skills": [
+	      "Python",
+	      "R",
+	      "SQL",
+	      "Machine Learning",
+	      "Data Visualization",
+	      "Data Analysis",
+	      "TensorFlow",
+	      "Numpy",
+	      "Pandas"
+		],
+		"available": false,
+		"picture": "jane_smith"
+  	},
+  	{
+	  	"id": 5,
+    	"name": "Edouard Leclerc",
+    	"age": 24,
+    	"city": "Paris",
+    	"role": "Designer",
+    	"type": "full-time",
+    	"salary": "$80000",
+    	"skills": [
+      	"Adobe Photoshop",
+      	"Adobe Illustrator",
+      	"Figma",
+      	"Sketch",
+      	"Invision",
+      	"UX/UI",
+      	"CSS"
+		],
+		"available": true,
+		"picture": "edouard_leclerc"
+  	}
+]

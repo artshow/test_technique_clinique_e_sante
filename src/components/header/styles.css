@@ -1,0 +1,21 @@
+header#header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+	background-color: #fff;
+}
+
+div.header__container {
+	width: 1200px;
+	max-width: 100%;
+}
+
+img.header__logo {
+	width: 140px;
+}

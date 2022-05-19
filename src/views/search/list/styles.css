@@ -1,0 +1,28 @@
+div.profiles_view-list{
+	margin-top: 24px;
+}
+
+div.profiles_view-list-empty {
+	margin-top: 64px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div.profiles_view-list-empty-title {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+div.profiles_view-list-empty-description {
+	margin-top: 12px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+}

@@ -1,0 +1,31 @@
+div.search__bar {
+	width: 100%;
+	position: relative;
+}
+
+input.search__bar-input {
+	width: 100%;
+	border: 2px solid #CCDBE0;
+	border-radius: 12px;
+	padding: 14px 16px 14px 50px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+input.search__bar-input:focus {
+	outline: none;
+	border-color: #6dd9ca;
+}
+
+input.search__bar-input:hover {
+	border-color: #85e0d3;
+}
+
+img.search__bar-icon {
+	position: absolute;
+	top: 15px;
+	left: 16px;
+}
