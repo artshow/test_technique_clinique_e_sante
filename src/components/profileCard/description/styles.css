@@ -29,3 +29,9 @@ div.profile__card-city {
 	line-height: 20px;
 	color: var(--secondary);
 }
+
+@media (max-width: 800px) {
+  	div.profile__card-description {
+		text-align: center;
+	}
+}
