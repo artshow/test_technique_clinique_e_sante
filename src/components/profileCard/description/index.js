@@ -11,7 +11,7 @@ const Description = ({city, age}) => {
 			{showDescription && (
 				<div className='profile__card-description-details'>
 					<div className="profile__card-city">Ville: {city}</div>
-					<div className="profile__card-age">Âge: {age}</div>
+					<div className="profile__card-age">Âge: {age} ans</div>
 				</div>
 			)}
 			<button onClick={() => setShowDescription(!showDescription)} className='profile__card-description-button'>

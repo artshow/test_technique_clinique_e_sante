@@ -13,15 +13,24 @@ input.search__bar-input {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 16px;
+	background-color: var(--main-bg-color);
+	transition: all 0.4s ease;
+	color: var(--secondary);
 }
 
-input.search__bar-input:focus {
-	outline: none;
-	border-color: #6dd9ca;
-}
-
+input.search__bar-input:focus,
 input.search__bar-input:hover {
-	border-color: #85e0d3;
+	outline: none;
+	border-color: #b7c5c9;
+	transition: all 0.4s ease;
+}
+
+input::placeholder {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--secondary);
 }
 
 img.search__bar-icon {

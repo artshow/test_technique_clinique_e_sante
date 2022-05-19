@@ -111,6 +111,10 @@ div.profile__card-informations {
 	margin-bottom: 28px;
 }
 
+div.profile__card-type {
+	text-transform: capitalize;
+}
+
 div.profile__card-type,
 div.profile__card-salary {
 	font-family: 'Inter';
