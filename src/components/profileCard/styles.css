@@ -106,23 +106,6 @@ div.profile__card-logo-truspilot {
 	display: flex;
 }
 
-button.profile__card-skill-button {
-	height: 24px;
-	width: 24px;
-	justify-content: center;
-	outline: none;
-	display: flex;
-	align-items: center;
-	align-self: flex-start;
-	cursor: pointer;
-	padding: 0px 6px;
-	box-shadow: none;
-	border: none;
-	background-color: var(--green-light);
-	border: 1px solid var(--grey-3);
-	border-radius: 4px;
-}
-
 div.profile__card-informations {
 	margin-top: 36px;
 	margin-bottom: 28px;
