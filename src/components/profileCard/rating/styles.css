@@ -1,0 +1,17 @@
+div.profile__card-rating {
+	margin-right: 6px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+div.profile__card-rating-text {
+	margin-right: 6px;
+	text-transform: uppercase;
+	color: #000;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+}

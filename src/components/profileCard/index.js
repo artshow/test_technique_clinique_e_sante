@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import Button from '../button';
 import Skills from './skills';
 import Description from './description';
+import Rating from './rating';
 
 import './styles.css';
 
@@ -31,15 +32,7 @@ const ProfileCard = ({profile}) => {
 				{/* Affiche la description du profil (ville & age) */}
 				<Description city={city} age={age} />
 			</div>
-			<div className="profile__card-right-side">
-				<div className="profile__card-notices">
-					<div className='profile__card-notices-text'>Excellent</div>
-					<img src='/assets/trustpilot-notices.svg' />
-				</div>
-				<div className="profile__card-logo-truspilot">
-					<img src='/assets/trustpilot-logo.svg' />
-				</div>
-			</div>
+			<Rating />
 		</div>
 	);
 }

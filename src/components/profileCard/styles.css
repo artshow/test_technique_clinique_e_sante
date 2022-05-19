@@ -22,6 +22,8 @@ div.profile__card-left-side {
 div.profile__card-left-side img {
 	border-radius: 50%;
 	margin-bottom: 24px;
+	width: 128px;
+	height: 128px;
 }
 
 div.profile__card-center-side {
@@ -83,24 +85,6 @@ div.profile__card-right-side {
 	flex-direction: row;
 	align-items: center;
 	margin-top: 8px;
-}
-
-div.profile__card-notices {
-	margin-right: 6px;
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-}
-
-div.profile__card-notices-text {
-	margin-right: 6px;
-	text-transform: uppercase;
-	color: #000;
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 12px;
-	line-height: 20px;
 }
 
 div.profile__card-logo-truspilot {
