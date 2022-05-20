@@ -42,4 +42,8 @@ div.profile-card-available {
 		margin: 24px 0px;
 		align-items: center;
   	}
+	div.profile__card-informations-left {
+		justify-content: center;
+		margin-bottom: 16px;
+	}
 }
