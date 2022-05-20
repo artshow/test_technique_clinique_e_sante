@@ -43,4 +43,10 @@ div.profile__card-content {
 		align-items: center;
     	flex-direction: column;
   	}
+	div.profile__card-left-side {
+		margin-right: 0px;
+	}
+	div.profile__card-content {
+		margin-right: 0px;
+	}
 }
