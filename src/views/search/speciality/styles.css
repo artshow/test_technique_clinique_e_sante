@@ -45,6 +45,7 @@ div.profile__speciality-content-select {
 	font-size: 16px;
 	line-height: 160%;
 	color: var(--secondary);
+	position: relative;
 }
 
 div.profile__speciality-content-select img {
