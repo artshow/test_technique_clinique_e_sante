@@ -33,7 +33,7 @@ const List = () => {
 	 * @return void
 	 */
 	const getEmptyResult = () => {
-		if(searchText && filteredProfiles.length == 0) {
+		if(searchText && filteredProfiles.length === 0) {
 			return (
 				<div className='profiles_view-list-empty'>
 					<div className="profiles_view-list-empty-title">Aucun résultat ! 😣</div>
@@ -46,6 +46,7 @@ const List = () => {
 
 	return (
 		<div className='profiles_view-wrapper-list'>
+			{/* Barre de recherche pour les profils */}
 			<SearchBar onChange={(event) => setSearchText(event.target.value)} placeholder='Recherchez ici votre développeur par ville, technologies, nom...' />
 			<div className="profiles_view-list">
 				{getEmptyResult()}

@@ -8,7 +8,7 @@ const ProfileSearch = () => {
 			<div className='profile__speciality-title'>Quelle est votre besoin principal ?</div>
 			<div className="profile__speciality-content">
 				<div className="profile__speciality-content-portait">
-					<img src='assets/blurred-profile.png' />
+					<img src='assets/blurred-profile.png' alt='Portrait floutée' />
 				</div>
 				<div className="profile__speciality-content-select">
 					Votre réponse -------
@@ -20,7 +20,7 @@ const ProfileSearch = () => {
 				{/* Génère trois item dans un array, le premier élement est actif par défaut */}
 				{[...Array(3).keys()].map(item => {
 					return (
-						<div key={item} className={`profile__speciality-carousel-indicator ${item == 0?'active':''}`}></div>
+						<div key={item} className={`profile__speciality-carousel-indicator ${item === 0?'active':''}`}></div>
 					);
 				})}
 			</div>

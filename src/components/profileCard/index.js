@@ -14,6 +14,7 @@ const ProfileCard = ({profile}) => {
 	return (
 		<div className="profile__card">
 			<div className="profile__card-left-side">
+				{/* Media du profil */}
 				<div className="profile__card-media">
 					<img src={`/pictures/${picture}.jpeg`} alt={`Profil de ${name}`}/>
 				</div>
