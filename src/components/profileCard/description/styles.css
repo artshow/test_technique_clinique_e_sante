@@ -1,5 +1,5 @@
 button.profile__card-description-button {
-	background-color: #fff;
+	background-color: var(--grey-1);
 	margin: 0px;
 	font-family: 'Inter';
 	font-style: normal;
