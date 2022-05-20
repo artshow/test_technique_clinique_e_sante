@@ -5,6 +5,7 @@ div.profile__card-skills {
 	align-items: center;
 	justify-content: flex-start;
 	flex-wrap: wrap;
+	max-width: 332px;
 }
 
 div.profile__card-skill {
@@ -38,4 +39,10 @@ button.profile__card-skill-button {
 	background-color: var(--green-light);
 	border: 1px solid var(--grey-3);
 	border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  	div.profile__card-skills {
+		max-width: 100%;
+	}
 }

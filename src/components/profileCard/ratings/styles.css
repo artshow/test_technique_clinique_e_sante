@@ -1,8 +1,14 @@
-div.profile__card-rating {
-	margin-right: 6px;
+div.profile__card-ratings {
 	display: flex;
 	align-items: center;
 	flex-direction: row;
+}
+
+div.profile__card-rating {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin-right: 6px;
 }
 
 div.profile__card-rating-text {
@@ -14,4 +20,8 @@ div.profile__card-rating-text {
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 20px;
+}
+
+div.profile__card-logo-truspilot {
+	display: flex;
 }

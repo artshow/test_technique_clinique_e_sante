@@ -1,8 +1,8 @@
 import './styles.css';
 
-const Notices = () => {
+const Ratings = () => {
 	return (
-		<div className="profile__card-right-side">
+		<div className="profile__card-ratings">
 			<div className="profile__card-rating">
 				<div className='profile__card-rating-text'>Excellent</div>
 				<img src='/assets/trustpilot-rating.svg' />
@@ -14,4 +14,4 @@ const Notices = () => {
 	);
 }
 
-export default Notices;
+export default Ratings;

@@ -1,8 +1,8 @@
-import React,{useState} from 'react';
+import React from 'react';
 import Button from '../button';
-import Skills from './skills';
 import Description from './description';
-import Rating from './rating';
+import Informations from './informations';
+import JobInformations from './jobInformations';
 
 import './styles.css';
 
@@ -14,25 +14,19 @@ const ProfileCard = ({profile}) => {
 	return (
 		<div className="profile__card">
 			<div className="profile__card-left-side">
-				<img src={`/pictures/${picture}.jpeg`} alt={`Image de profil de ${name}`}/>
+				<div className="profile__card-media">
+					<img src={`/pictures/${picture}.jpeg`} alt={`Profil de ${name}`}/>
+				</div>
 				<Button title='Choisir' />
 			</div>
-			<div className="profile__card-center-side">
-				<div className="profile__card-header">
-					<div className="profile__card-name">{name}</div>
-					{available && (<div className="profile-card-available">Disponible aujourd'hui</div>)}
-				</div>
-				<div className="profile__card-role">{role}</div>
-				{/* Affiche les différents skill du profil */}
-				<Skills skills={skills} />
-				<div className="profile__card-informations">
-					<div className="profile__card-type">{type}</div>
-					<div className="profile__card-salary">{salary}</div>
-				</div>
+			<div className="profile__card-content">
+				{/* Affiche les informations de base avec le nom, les notes et si le profil est disponible */}
+				<Informations name={name} available={available} />
+				{/* Affiche tout ce equi concerne le job du profil (salaire, compétences, role..)*/}
+				<JobInformations role={role} skills={skills} type={type} salary={salary} />
 				{/* Affiche la description du profil (ville & age) */}
 				<Description city={city} age={age} />
 			</div>
-			<Rating />
 		</div>
 	);
 }

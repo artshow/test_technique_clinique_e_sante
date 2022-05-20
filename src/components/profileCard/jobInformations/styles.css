@@ -1,0 +1,38 @@
+div.profile__card-role {
+	display: inline-flex;
+	align-self: flex-start;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	background-color: var(--green-light);
+	padding: 0px 8px;
+	border-radius: 10px;
+	margin-top: 6px;
+}
+
+div.profile__card-job-content {
+	margin-top: 36px;
+	margin-bottom: 28px;
+}
+
+div.profile__card-type {
+	text-transform: capitalize;
+}
+
+div.profile__card-type,
+div.profile__card-salary {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--secondary);
+}
+
+@media (max-width: 800px) {
+  	div.profile__card-job-informations {
+		text-align: center;
+  	}
+}
