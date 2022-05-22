@@ -1,4 +1,4 @@
-section#profiles__view {
+section#search__view {
 	position: absolute;
 	top: 98px;
 	left: 0px;
@@ -9,18 +9,18 @@ section#profiles__view {
 	justify-content: center;
 }
 
-div.profiles__container {
+div.search__container {
 	padding: 48px 32px 0px 32px;
 	max-width: 864px;
 	width: 100%;
 }
 
-div.profiles__view-separator {
+div.search__view-separator {
 	margin-top: 36px;
 	margin-bottom: 24px;
 }
 
-div.profiles__view-separator-line {
+div.search__view-separator-line {
 	background-color: #CBDBDF;
 	margin: auto;
 	height: 1px;

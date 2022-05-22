@@ -2,7 +2,7 @@ import Button from '../../../components/button';
 
 import './styles.css';
 
-const ProfileSearch = () => {
+const Speciality = () => {
 	return (
 		<div className='profile__speciality'>
 			<div className='profile__speciality-title'>Quelle est votre besoin principal ?</div>
@@ -28,4 +28,4 @@ const ProfileSearch = () => {
 	);
 }
 
-export default ProfileSearch;
+export default Speciality;

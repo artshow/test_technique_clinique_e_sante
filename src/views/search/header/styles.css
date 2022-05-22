@@ -1,8 +1,8 @@
-div.profiles__header {
+div.search__header {
 	margin-bottom: 48px;
 }
 
-h1.profiles__header-title {
+h1.search__header-title {
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
@@ -15,7 +15,7 @@ h1.profiles__header-title {
 	color: var(--secondary-dark);
 }
 
-p.profiles__header-description {
+p.search__header-description {
 	text-align: center;
 	margin: 0px;
 	padding: 0px;

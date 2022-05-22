@@ -1,8 +1,8 @@
-div.profiles_view-list{
+div.search_view-list{
 	margin-top: 24px;
 }
 
-div.profiles_view-list-empty {
+div.search_view-list-empty {
 	margin-top: 64px;
 	display: flex;
 	flex-direction: column;
@@ -10,7 +10,7 @@ div.profiles_view-list-empty {
 	align-items: center;
 }
 
-div.profiles_view-list-empty-title {
+div.search_view-list-empty-title {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 700;
@@ -18,7 +18,7 @@ div.profiles_view-list-empty-title {
 	line-height: 24px;
 }
 
-div.profiles_view-list-empty-description {
+div.search_view-list-empty-description {
 	margin-top: 12px;
 	font-family: 'Inter';
 	font-style: normal;
